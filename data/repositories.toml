@@ -216,6 +216,7 @@ repositories = [
   'github.com/facebook/create-react-app',
   'github.com/facebook/docusaurus',
   'github.com/facebook/flow',
+  'github.com/fastlane/fastlane',
   'github.com/facebook/fresco',
   'github.com/facebook/jest',
   'github.com/facebook/react-native',
