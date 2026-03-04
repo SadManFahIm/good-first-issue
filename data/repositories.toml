@@ -644,6 +644,7 @@ repositories = [
   'github.com/serverless/serverless',
   'github.com/SFTtech/openage',
   'github.com/shahednasser/awesome-resources',
+  'github.com/shadcn-ui/ui',
   'github.com/SheetJS/sheetjs',
   'github.com/shentao/vue-multiselect',
   'github.com/shogun-toolbox/shogun',
