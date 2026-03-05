@@ -109,6 +109,39 @@ If you use AI tools (Claude, Copilot, ChatGPT, etc.) when contributing:
 - **Review and test** all AI-generated code before submitting
 - **Ensure accuracy** - don't submit code you haven't verified works
 
+
+## Troubleshooting
+
+### Node.js version mismatch
+Make sure you are using Node.js v18 or later:
+```
+node --version
+```
+
+### Bun install fails
+Try clearing the cache and reinstalling:
+```
+bun install --force
+```
+
+### Python environment issues
+Make sure `uv` is installed and run:
+```
+uv sync --all-extras
+```
+```
+
+---
+
+**Branch name:**
+```
+add-troubleshooting-section
+```
+
+**Commit message:**
+```
+docs: add Troubleshooting section to CONTRIBUTING.md
+
 Low-quality AI-generated PRs or issues will be closed without review.
 
 _Inspired by [Ghostty's AI Policy](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md)._
