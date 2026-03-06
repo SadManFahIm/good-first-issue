@@ -221,6 +221,7 @@ repositories = [
   'github.com/facebook/docusaurus',
   'github.com/expressjs/express',
   'github.com/facebook/flow',
+  'github.com/fastlane/fastlane',
   'github.com/facebook/fresco',
   'github.com/facebook/jest',
   'github.com/facebook/react-native',
